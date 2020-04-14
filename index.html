@@ -24,6 +24,15 @@
             font-size: 50%;
         }
     </style>
+    <script>
+        window.onload = () => {
+            if (window.innerHeight>window.innerWidth) {
+                document.getElementById('content').style.fontSize = '30px';
+                document.getElementById('small').style.fontSize = '20px';
+                document.getElementsByTagName('img')[0].style.height='900px';
+            }
+        };
+    </script>
     <title>
         Lise and Adam's Wedding
     </title>
